@@ -1,4 +1,4 @@
-intro_to_web_dev
-================
+Intro to Web Development Course
+===============================
 
-Introduction to web development course
+Run `ruby app.rb` and point your browser to http://localhost:4567 to load the slides, or just browse them in [markdown](https://help.github.com/articles/markdown-basics) in the `notes` directory.
