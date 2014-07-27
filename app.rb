@@ -13,6 +13,8 @@ end
 get '/:note.:format' do |note, format|
   # ignore format
 
+  @title = note
+
   # render the markdown file in the remark template
   erb :template do
     File.read(settings.notes_directory + "/" + note + ".md")
