@@ -24,11 +24,12 @@ layout: true
 
 ---
 
-# Agenda
+# Outline
 
 1. About Christian
 2. Web Development
 3. Class Overview
+4. Schedule
 
 ---
 
@@ -146,7 +147,58 @@ http://developer.getpebble.com/2/guides/javascript-guide.html
 
 ### 3. Class Overview
 
-slides are online
-help each other
-half hour of lecture, get a project, work on it for the rest of class
-if you want to show off, it
+We're going to cover:
+
+* tools of the trade: [Chrome](https://www.google.com/chrome/browser/), [Sublime Text 2](http://www.sublimetext.com/), [Atom](https://atom.io/), [vim](http://www.openvim.com/tutorial.html), and [the command line](http://cli.learncodethehardway.org/book/)
+--
+
+* the basics: [html](http://www.w3schools.com/html/), [css](http://www.w3schools.com/css/), and [javascript](http://www.w3schools.com/js/)
+--
+
+* preprocessors: [erb](http://www.startuprocket.com/blog/a-quick-introduction-to-embedded-ruby-erb-eruby), [slim](http://slim-lang.com/), [scss](http://sass-lang.com/), and [coffeescript](http://coffeescript.org/)
+--
+
+* middleware: [sinatra](http://www.sinatrarb.com/), [Rails](http://rubyonrails.org/) (woohoo!), [php](https://php.net/) (yuck), and [meteor](https://www.meteor.com/)
+--
+
+* libraries: [Twitter bootstrap](http://getbootstrap.com/), [jQuery](http://jquery.com/download/)
+--
+
+* other stuff: web hosting, domain names, version control, databases, and json 
+
+---
+
+### 4. Schedule
+
+**Mon**: Intro, tools, html, the command line
+
+**Tue**: css/Bootstrap, javascript/jQuery, preprocessors
+
+**Wed**: Sinatra
+
+**Thu**: other stuff, work on final project
+
+**Fri**: TBD, final projects
+
+Each day will be approximately:
+
+* 30min lecture
+* 1h projects
+
+---
+
+### General Notes
+
+* help each other
+--
+
+* send me stuff you're proud of
+--
+
+* These slides are online! http://gen.co:4567
+
+---
+
+class: center, middle, inverse
+
+# Questions?
