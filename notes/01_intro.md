@@ -40,7 +40,7 @@ layout: true
 * went to SMU from 2009-2013 [for free](http://christian.gen.co/go-to-college-for-free/)
 --
 
-* has been making websites for ten years ([tbp](http://textbooksplease.com), [dbi](http://dbinbox.com), [emt](http://emailtipbot.com))
+* has been making websites for ten years ([tbp](http://textbooksplease.com), [dbi](http://dbinbox.com), [etb](http://emailtipbot.com))
 --
 
 * believes [everyone should learn to program](http://tedxtalks.ted.com/video/You-Should-Learn-to-Program-Chr) (good job!)
@@ -149,16 +149,18 @@ http://developer.getpebble.com/2/guides/javascript-guide.html
 
 We're going to cover:
 
-* tools of the trade: [Chrome](https://www.google.com/chrome/browser/), [Sublime Text 2](http://www.sublimetext.com/), [Atom](https://atom.io/), [vim](http://www.openvim.com/tutorial.html), and [the command line](http://cli.learncodethehardway.org/book/)
+--
+
+* tools of the trade: [Chrome](https://www.google.com/chrome/browser/), plain text editors, and [the command line](http://cli.learncodethehardway.org/book/)
 --
 
 * the basics: [html](http://www.w3schools.com/html/), [css](http://www.w3schools.com/css/), and [javascript](http://www.w3schools.com/js/)
 --
 
-* preprocessors: [erb](http://www.startuprocket.com/blog/a-quick-introduction-to-embedded-ruby-erb-eruby), [slim](http://slim-lang.com/), [scss](http://sass-lang.com/), and [coffeescript](http://coffeescript.org/)
+* preprocessors: things that compile into html, css, and js
 --
 
-* middleware: [sinatra](http://www.sinatrarb.com/), [Rails](http://rubyonrails.org/) (woohoo!), [php](https://php.net/) (yuck), and [meteor](https://www.meteor.com/)
+* middleware: [Sinatra](http://www.sinatrarb.com/)
 --
 
 * libraries: [Twitter bootstrap](http://getbootstrap.com/), [jQuery](http://jquery.com/download/)
@@ -166,33 +168,54 @@ We're going to cover:
 
 * other stuff: web hosting, domain names, version control, databases, and json 
 
+--
+
+But don't worry, it's not nearly as complicated as it seems.
+
+???
+
+Plain text editors: [Sublime Text 2](http://www.sublimetext.com/), [Atom](https://atom.io/), [vim](http://www.openvim.com/tutorial.html)
+
+Preprocessors: [erb](http://www.startuprocket.com/blog/a-quick-introduction-to-embedded-ruby-erb-eruby), [slim](http://slim-lang.com/), [scss](http://sass-lang.com/), and [coffeescript](http://coffeescript.org/)
+
+More middleware: [Rails](http://rubyonrails.org/) (woohoo!), [php](https://php.net/) (yuck), and [meteor](https://www.meteor.com/)
+
 ---
 
 ### 4. Schedule
 
-**Mon**: Intro, tools, html, the command line
+**Mon**: Intro, tools, `html`
 
-**Tue**: css/Bootstrap, javascript/jQuery, preprocessors
+--
+
+**Tue**: `css`/Bootstrap, `javascript`/jQuery, preprocessors
+
+--
 
 **Wed**: Sinatra
 
+--
+
 **Thu**: other stuff, work on final project
+
+--
 
 **Fri**: TBD, final projects
 
+--
+
 Each day will be approximately:
 
-* 30min lecture
-* 1h projects
+* 30min overview
+* 1h free work
 
 ---
 
 ### General Notes
 
-* help each other
 --
 
-* send me stuff you're proud of
+* help each other
 --
 
 * These slides are online! http://gen.co:4567

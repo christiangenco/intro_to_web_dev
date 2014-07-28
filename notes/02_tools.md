@@ -107,7 +107,7 @@ alert()
     * open and close applications
     * move the mouse, take screenshots, change the volume
     * make your computer talk!
----
+--
 
 We need it because programs made for programmers usually don't have a Graphical User Interface (GUI) that you can click.
 
@@ -126,6 +126,16 @@ Hidden files.
 Make the computer talk.
 
 ---
+
+Most common commands:
+
+* `mkdir DIRECTORY_NAME`: make a directory
+* `cd`: change directory
+* `ls`: list directory contents
+* `cat FILENAME`: print out the contents of a file
+* `mv FILENAME NEW_FILENAME`: move or rename a file
+* `cp FILENAME DESTINATION`: copy a file
+* `rm FILENAME`: delete a file
 
 A full command line crash course is here: http://cli.learncodethehardway.org/book/
 
