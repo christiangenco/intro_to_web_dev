@@ -124,6 +124,16 @@
       /*.content{
         margin-top: 40px;
       }*/
+
+      blink {
+        -webkit-animation: blink 1s step-start 0s infinite;
+      }
+
+      @-webkit-keyframes blink {
+        0% { opacity: 1.0; }
+        50% { opacity: 0.0; }
+        100% { opacity: 1.0; }
+      }
     </style>
   </head>
   <body>

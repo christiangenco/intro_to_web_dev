@@ -149,6 +149,57 @@ background-image: url(http://i.imgur.com/lRjwodk.png)
 
 ---
 
+#### Tags are nestable
+
+```html
+<a href="http://google.com">
+    Google
+</a>
+```
+
+---
+
+#### Tags are nestable
+
+```html
+<a href="http://google.com">
+    Google
+*    <img src="http://placekitten.com/g/200/300" />
+</a>
+```
+
+---
+
+#### Tags are nestable
+
+```html
+<a href="http://google.com">
+*    <b>Google</b>
+    <img src="http://placekitten.com/g/200/300" />
+</a>
+```
+
+---
+
+#### Tags are nestable
+
+```html
+<a href="http://google.com">
+*    <b><i>Google</i></b>
+    <img src="http://placekitten.com/g/200/300" />
+</a>
+```
+
+--
+
+**Don't do this:**
+
+```html
+<b><i>Google</b></i>
+```
+
+---
+
 Every HTML Tag: http://www.w3schools.com/tags/
 
 Important ones:
@@ -178,6 +229,17 @@ Forbidden tags:
 * `marquee`
 * `blink`
 
+<marquee><blink><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS75HzuEy488Z3-dbw20sZK40FOAQeeq24sCP5Td0IvPRFKR_CmJg"></blink></marquee>
+
+---
+
+#### More HTML resources
+
+* [Code Academy](http://www.codecademy.com/en/tracks/web)
+* Mozilla's [Learn HTML](https://developer.mozilla.org/en-US/learn/html)
+* [HTML Dog](http://www.htmldog.com/guides/html/beginner/)
+* Google "html tutorial"
+
 ---
 
 class: center, middle, inverse
@@ -185,3 +247,7 @@ class: center, middle, inverse
 # Project
 
 ## Make a webpage about an animal.
+
+<hr>
+
+# Questions?
