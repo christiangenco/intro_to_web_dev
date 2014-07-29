@@ -119,9 +119,7 @@ h1{
 
 ## CSS Zen Garden
 
-* the exact same html, but different css
-
-http://csszengarden.com
+A website that uses the exact same html, but lets you change the css: http://csszengarden.com
 
 ---
 
@@ -472,6 +470,10 @@ div{
 --
 
 * they already wrote *really good looking* CSS for you
+
+--
+
+Designing things look good is really hard. The best way to learn is to try to copy things you think look good.
 
 ---
 
