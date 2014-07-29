@@ -25,6 +25,7 @@ layout: true
 <html>
     <head>
         <title>Hello world!</title>
+    </head>
     <body>
         <h1>Hello world!</h1>
 *        OTHER STUFF GOES HERE
@@ -43,6 +44,7 @@ background-image: url(http://i.imgur.com/L9rWlUF.png)
 <html>
     <head>
         <title>Hello world!</title>
+    </head>
     <body>
         <h1>Hello world!</h1>
 *        <p>
@@ -64,6 +66,7 @@ background-image: url(http://i.imgur.com/V1SQGI3.png)
 <html>
     <head>
         <title>Hello world!</title>
+    </head>
     <body>
         <h1>Hello world!</h1>
         <p>
@@ -86,6 +89,7 @@ background-image: url(http://i.imgur.com/u0DVDyE.png)
 <html>
     <head>
         <title>Hello world!</title>
+    </head>
     <body>
         <h1>Hello world!</h1>
         <p>
@@ -109,6 +113,7 @@ background-image: url(http://i.imgur.com/dIIaZFB.png)
 <html>
     <head>
         <title>Hello world!</title>
+    </head>
     <body>
         <h1>Hello world!</h1>
         <p>
