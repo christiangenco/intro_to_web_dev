@@ -367,6 +367,10 @@ Generate them at http://www.colorpicker.com/ or in the chrome web inspector.
 
 # 3. CSS Selectors
 
+All of them: http://www.w3schools.com/cssref/css_selectors.asp
+
+---
+
 .left-column[
 To style this:
 ```html
@@ -406,6 +410,8 @@ div{
 
 
 ---
+
+#### Class and id selectors
 
 .left-column[
 ```html
@@ -459,6 +465,159 @@ div{
 </div>
 ]
 
+
+---
+
+#### Child selector
+
+.left-column[
+```html
+<style>
+*  #three p{
+    background-color: #FF0;
+  }
+</style>
+
+<p>Regular p</p>
+<div id="three">
+  <p>Child p</p>
+</div>
+```
+]
+
+.right-column[
+<style>
+  lol, #child #three p{
+    background-color: #FF0;
+  }
+</style>
+<div id="child">
+  <p>Regular p</p>
+  <div id="three">
+    <p>Child p</p>
+  </div>
+</div>
+]
+
+---
+
+#### Multiple selector
+
+.left-column[
+```html
+<style>
+*  p, span {
+    background-color: #F0F;
+  }
+</style>
+
+<p>Regular p</p>
+<div id="three">
+  <p>Child p</p>
+</div>
+<span>span</span>
+<b>bold</b>
+```
+]
+
+.right-column[
+<style>
+asdf, #multiple p, #multiple span {
+  background-color: #F0F;
+}
+</style>
+<div id="multiple">
+  <p>Regular p</p>
+  <div id="three">
+    <p>Child p</p>
+  </div>
+  <span>span</span>
+  <b>bold</b>
+</div>
+]
+
+---
+
+#### Pseudo selector
+
+.left-column[
+```html
+<style>
+*  a:hover{
+    color: #fff;
+    background-color: #000;
+  }
+</style>
+
+<a href="http://google.com">
+  Google
+</a>
+```
+]
+
+.right-column[
+<style>
+lol, #pseudo a:hover{
+  color: white;
+  background-color: black;
+}
+</style>
+<div id="pseudo">
+  <a href="http://google.com">
+    Google
+  </a>
+</div> 
+]
+
+---
+
+#### Wildcard selector
+
+.left-column[
+```html
+<style>
+  #toast{
+    border: 4px solid red;
+  }
+*  #toast *{
+    color: #fff;
+    background-color: #000;
+  }
+</style>
+
+<span>Span 1</span>
+<b>Bold 1</b>
+<i>Italic 1</i>
+<div id="toast">
+  <span>Span 2</span>
+  <b>Bold 2</b>
+  <i>Italic 2</i>
+</div>
+```
+]
+
+.right-column[
+<style>
+div#toast{
+  border: 4px solid red;
+}
+div#toast *{
+  color: #fff;
+  background-color: #000;
+}
+</style>
+<div id="wildcard">
+  <span>Span 1</span>
+  <b>Bold 1</b>
+  <i>Italic 1</i>
+  <div id="toast">
+    <span>Span 2</span>
+    <b>Bold 2</b>
+    <i>Italic 2</i>
+
+  </div>
+</div> 
+]
 
 ---
 
