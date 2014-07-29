@@ -188,11 +188,11 @@ More middleware: [Rails](http://rubyonrails.org/) (woohoo!), [php](https://php.n
 
 --
 
-**Tue**: `css`/Bootstrap, `javascript`/jQuery, preprocessors
+**Tue**: `css`, Bootstrap
 
 --
 
-**Wed**: Sinatra
+**Wed**: `javascript`, jQuery, Firebase (databases and APIs)
 
 --
 
