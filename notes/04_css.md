@@ -16,7 +16,7 @@ layout: true
 2. CSS Properties
 3. CSS Selectors
 4. Cheating: just use Bootstrap
-5. Project: 
+5. Project: Copy this code
 
 ---
 
@@ -678,8 +678,7 @@ class: center, middle, inverse
 
 # Project:
 
-## Make your website look better 
-## with CSS
+## Duplicate this page's style. Whoever gets closest gets a prize!
 
 <hr />
 

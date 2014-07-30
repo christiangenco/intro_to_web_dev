@@ -192,15 +192,15 @@ More middleware: [Rails](http://rubyonrails.org/) (woohoo!), [php](https://php.n
 
 --
 
-**Wed**: `javascript`, jQuery, Firebase (databases and APIs)
+**Wed**: `javascript`, jQuery, JSON, APIs
 
 --
 
-**Thu**: other stuff, work on final project
+**Thu**: Preprocessors (coffeescript, jade, sass), web hosting (http://brace.io/), git, Firebase
 
 --
 
-**Fri**: TBD, final projects
+**Fri**: final projects
 
 --
 
