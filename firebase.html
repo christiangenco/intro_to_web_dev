@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+<body>
+
+  <h1>Messages</h1>
+
+  <ul id="messages">
+
+  </ul>
+
+  <input id="message" />
+  <button id="send">Send Message</button>
+  
+  <p>This is a demo of how to use the cloud database <a href="https://www.firebase.com/">Firebase</a></p>
+
+  <script>
+    $(function(){
+     window.fb = new Firebase('https://mosaiccg.firebaseio.com/');
+
+      fb.on('child_added', function(snapshot) {
+        console.dir(snapshot.val());
+        $("#messages").append("<li>" + snapshot.val().message + "</li>");
+      });
+
+      $("#send").click(function(){
+        message = $("#message").val();
+        fb.push({message: message});
+
+        $("#message").val("");
+      });
+    });
+  </script>
+</body>
+</html>
