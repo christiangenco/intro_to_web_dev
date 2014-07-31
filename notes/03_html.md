@@ -12,7 +12,7 @@ layout: true
 
 # Outline
 
-1. Anatomy of a webpage
+1. Outline of a webpage
 2. Tags
 3. Project: your first webpage
 
