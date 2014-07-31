@@ -12,7 +12,7 @@ layout: true
 
 # Outline
 
-1. Preprocessors
+1. Pre-processors
 2. git
 3. Webhosting
 4. Mobile websites
